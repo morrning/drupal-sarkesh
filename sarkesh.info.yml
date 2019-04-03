@@ -1,0 +1,24 @@
+name: sarkesh
+type: theme
+description: 'sarkesh org theme'
+version: '8.x-1.3'
+core: '8.x'
+# Regions
+# Footer listed first to make it the default region.
+regions:
+   footer: 'Footer'
+   header: 'Header'
+   content: 'Content'
+   sidebar: 'Sidebar'
+   
+libraries:
+  - sarkesh/global-styling
+  - sarkesh/global-scripts
+  
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/style.css: {}
+      css/shabnam.css: {}
